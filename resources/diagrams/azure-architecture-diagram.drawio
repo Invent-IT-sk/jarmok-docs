@@ -1,0 +1,256 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Azure Resources" id="azure-resources">
+    <mxGraphModel dx="1135" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dns" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="80" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dns-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="DNS Zone&#xa;e-jarmok.sk" vertex="1">
+          <mxGeometry height="40" width="100" x="80" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="static-app" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="240" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="static-app-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Static Web App&#xa;(Frontend)" vertex="1">
+          <mxGeometry height="40" width="120" x="230" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-be" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="400" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cdn-be-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Front Door&#xa;(Backend CDN)" vertex="1">
+          <mxGeometry height="40" width="130" x="385" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="cae" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="230" width="720" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="cae-label" parent="1" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;fontStyle=1" value="Container Apps Environment" vertex="1">
+          <mxGeometry height="30" width="200" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="container-app" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="120" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="container-app-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Container App&#xa;(Main API)" vertex="1">
+          <mxGeometry height="40" width="130" x="105" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="sidecar" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sidecar-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Sidecar&#xa;(Gotenberg)" vertex="1">
+          <mxGeometry height="40" width="110" x="255" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="migrate-job" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="400" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="migrate-job-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Container Job&#xa;(DB Migration)" vertex="1">
+          <mxGeometry height="40" width="140" x="380" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="clean-job" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="540" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="clean-job-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Container Job&#xa;(Clean Registry)" vertex="1">
+          <mxGeometry height="40" width="140" x="520" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="acr" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="680" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="acr-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Container&#xa;Registry" vertex="1">
+          <mxGeometry height="40" width="100" x="680" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="312.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="postgres-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="PostgreSQL&#xa;Flexible Server" vertex="1">
+          <mxGeometry height="40" width="140" x="182.5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="kv" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="202.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="kv-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Key Vault&#xa;(Secrets)" vertex="1">
+          <mxGeometry height="40" width="110" x="312.5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-img" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="87.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-img-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Storage Account&#xa;(Images/Docs)" vertex="1">
+          <mxGeometry height="40" width="140" x="67.5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-deploy" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="565" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="storage-deploy-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Storage Account&#xa;(Deployment)" vertex="1">
+          <mxGeometry height="40" width="140" x="545" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="logs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="432.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="logs-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Log Analytics&#xa;Workspace" vertex="1">
+          <mxGeometry height="40" width="130" x="417.5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="appinsights" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="557.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="appinsights-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Application&#xa;Insights" vertex="1">
+          <mxGeometry height="40" width="110" x="552.5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="email" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="100" x="682.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="email-label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" value="Communication&#xa;Service (Email)" vertex="1">
+          <mxGeometry height="40" width="160" x="652.5" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="conn1" edge="1" parent="1" source="dns" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="static-app" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn2" edge="1" parent="1" source="dns" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cdn-be" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn3" edge="1" parent="1" source="cdn-be" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="cae" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn4" edge="1" parent="1" source="container-app" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="sidecar" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn5" edge="1" parent="1" source="container-app" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="postgres" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn6" edge="1" parent="1" source="migrate-job" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="postgres" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn7" edge="1" parent="1" source="clean-job" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="postgres" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn8" edge="1" parent="1" source="container-app" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="kv" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn9" edge="1" parent="1" source="container-app" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="storage-img" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn10" edge="1" parent="1" source="cae" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="logs" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn11" edge="1" parent="1" source="appinsights" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="logs" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="417.5" y="370" as="sourcePoint" />
+            <mxPoint x="467.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn12" edge="1" parent="1" source="container-app" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="appinsights" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn13" edge="1" parent="1" source="container-app" style="endArrow=classic;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="email" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn14" edge="1" parent="1" source="L53EZEesNnfGddBPdgh6-6" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="container-app" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn15" edge="1" parent="1" source="acr" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="migrate-job" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="conn16" edge="1" parent="1" source="acr" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="clean-job" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="98" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/preview/Static_Apps.svg;" value="" vertex="1">
+          <mxGeometry height="56.00000000000001" width="70" x="255" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Front_Doors.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="68" x="416" y="82" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-4" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Container_App_Environments.svg;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="270" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" value="" vertex="1">
+          <mxGeometry height="66" width="68" x="136" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-7" edge="1" parent="1" source="acr" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="L53EZEesNnfGddBPdgh6-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="340" as="sourcePoint" />
+            <mxPoint x="220" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-6" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" value="" vertex="1">
+          <mxGeometry height="66" width="68" x="276" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-8" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" value="" vertex="1">
+          <mxGeometry height="66" width="68" x="416" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-9" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Worker_Container_App.svg;" value="" vertex="1">
+          <mxGeometry height="66" width="68" x="556" y="307" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-11" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="52" width="65" x="583" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-12" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/storage/Storage_Accounts.svg;" value="" vertex="1">
+          <mxGeometry height="52" width="65" x="105.5" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-13" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" value="" vertex="1">
+          <mxGeometry height="65.79" width="50" x="228.5" y="557.1" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-14" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.acr_cloud_container_registry;" value="" vertex="1">
+          <mxGeometry height="74.97" width="64.6" x="700" y="302.52" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-16" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/security/Key_Vaults.svg;" value="" vertex="1">
+          <mxGeometry height="68" width="68" x="328.5" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-17" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Log_Analytics_Workspaces.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="64" x="453.5" y="556" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-18" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/devops/Application_Insights.svg;" value="" vertex="1">
+          <mxGeometry height="63" width="44" x="582.5" y="558.49" as="geometry" />
+        </mxCell>
+        <mxCell id="L53EZEesNnfGddBPdgh6-19" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_Communication_Services.svg;" value="" vertex="1">
+          <mxGeometry height="56.1" width="76.3" x="696.65" y="563.9" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
