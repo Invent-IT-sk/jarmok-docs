@@ -6,9 +6,9 @@ Prehľad automatizovaných testov. Podrobný postup (inštalácia, spustenie, č
 
 | Typ testov | Repozitár | Čo overuje | Kedy sa spúšťajú | Dokumentácia |
 | --- | --- | --- | --- | --- |
-| E2E testy (Playwright) | `jarmok-web` | Celý proces registrácie predajcu v prehliadači: stránka zóny a cena, súhlasy, základné a doplňujúce údaje, prílohy (všetky typy, kontrola uloženia v API), súhrn, platba neskôr | lokálne, pred vydaním zmien vo formulároch registrácie | [`jarmok-web/docs/E2E.md`](https://github.com/Invent-IT-sk/jarmok-web/blob/main/docs/E2E.md) |
-| Podporné skripty pre E2E | `jarmok-auth-user` | Príprava testovacích dát (podujatie „E2E Test Jarmok“, testovací používatelia), prihlasovací token a vyčistenie dát po teste | automaticky pri každom spustení E2E testov | [`jarmok-auth-user/docs/E2E.md`](https://github.com/Invent-IT-sk/jarmok-auth-user/blob/main/docs/E2E.md) |
-| Unit testy (Jest) | `jarmok-auth-user` | Controllery, DAO vrstva, služby, validácie a router API, bez databázy (mocky) | lokálne, pred každým PR | [`jarmok-auth-user/docs/TESTING.md`](https://github.com/Invent-IT-sk/jarmok-auth-user/blob/main/docs/TESTING.md) |
+| E2E testy (Playwright) | `jarmok-web` | Celý proces registrácie predajcu v prehliadači: stránka zóny a cena, súhlasy, základné a doplňujúce údaje, prílohy (všetky typy, kontrola uloženia v API), súhrn, platba neskôr | lokálne, pred vydaním zmien vo formulároch registrácie | [`jarmok-web/e2e/README.md`](https://github.com/Invent-IT-sk/jarmok-web/blob/main/e2e/README.md) |
+| Podporné skripty pre E2E | `jarmok-auth-user` | Príprava testovacích dát (podujatie „E2E Test Jarmok“, testovací používatelia), prihlasovací token a vyčistenie dát po teste | automaticky pri každom spustení E2E testov | [`jarmok-auth-user/test/e2e/README.md`](https://github.com/Invent-IT-sk/jarmok-auth-user/blob/main/test/e2e/README.md) |
+| Unit testy (Jest) | `jarmok-auth-user` | Controllery, DAO vrstva, služby, validácie a router API, bez databázy (mocky) | lokálne, pred každým PR | [`jarmok-auth-user/test/README.md`](https://github.com/Invent-IT-sk/jarmok-auth-user/blob/main/test/README.md) |
 | Funkčné testy (Jest) | `jarmok-auth-user/functionalTests` | Volania bežiaceho API cez HTTP (nahrávanie dokumentov, rodné číslo, testovacie dáta finančného reportu) | lokálne, podľa potreby | [`functionalTests/README.md`](https://github.com/Invent-IT-sk/jarmok-auth-user/blob/main/functionalTests/README.md) |
 
 ## E2E testy v skratke
