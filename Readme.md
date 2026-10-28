@@ -185,6 +185,7 @@ src/
 - **Platformy:** Azure Static Web Apps (frontend), Azure Container Apps (backend)
 - **IaC:** Pulumi (TS) – RG, ACR, ACA Env, ACA apps, PostgreSQL, Storage, Key Vault, App Insights, Log Analytics, App Gateway, Communication Service
 - **CI/CD:** GitHub Actions – build → docker → deploy (dev/prod), health checks, manuálne approval do prod, rollback cez Pulumi
+- **Testovanie:** E2E testy (Playwright) vo webe, unit a funkčné testy (Jest) v API; prehľad a odkazy na postup v [TESTING.md](TESTING.md)
 
 ---
 
